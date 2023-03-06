@@ -1,0 +1,147 @@
+.App-in {
+  min-height: 100vh;
+  background-color: rgb(172, 245, 124);
+  background-color: rgb(172, 245, 124);
+  padding: 25px;
+  justify-content: space-around;
+}
+
+nav{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 7vh;
+  background-color: rgb(255, 102, 102);
+}
+
+.nav-links{
+  width: 40%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  list-style: none;
+}
+
+.Login, .Register, .MeDataPage{
+  width: 500px;
+  height: 200px;
+  margin-top: 20px;
+  background: rgb(255, 255, 255);
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  position: absolute;
+  top: 10%;
+  left: 33%;
+}
+
+.MeDataPage{
+  height: 300;
+}
+
+.DeleteForm, .PostFormUser, .PostFormUserAdmin, .PostFormCompany, .PostFormNote, .PostFormContact, .PostFormBrand{
+  width: 400px;
+  margin-top: 20px;
+  padding-top: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  background: rgb(255, 255, 255);
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+
+.UserPiece, .UserPieceMod, .UserPieceAdmin, .ModUserPiece, .ModUserPieceMod, .ModUserPieceAdmin, .AdminUserPiece, .AdminUserPieceMod, .AdminUserPieceAdmin,
+.ContactPeoplePiece, .NotePiece, .CompanyPiece,
+.BrandModPiece{
+  width: 1000px;
+  margin-top: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+  background: rgb(168, 188, 255);
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 10px;
+}
+.UserPieceMod{
+  background: rgb(216, 201, 69);
+}
+.UserPieceAdmin{
+  background: rgb(255, 109, 109);
+}
+.ModUserPieceMod{
+  background: rgb(216, 201, 69);
+}
+.ModUserPieceAdmin{
+  background: rgb(255, 109, 109);
+}
+.AdminUserPieceMod{
+  background: rgb(216, 201, 69);
+}
+.AdminUserPieceAdmin{
+  background: rgb(255, 109, 109);
+}
+
+
+.contact-search{
+  margin-top: 10px;
+}
+.page-button{
+  width: 200px;
+  margin: 0 auto;
+  display: inline;
+}
+.page-button-button, .CUDButton-post,  .CUDButton-update, .CUDButton-delete{
+  background-color: #ffffff;
+  color: rgb(0, 0, 0);
+  padding: 8px 16px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.CUDButton-post{
+  background-color: #006408;
+  color: rgb(255, 255, 255);
+  padding: 6px 32px;
+  font-size: 16px;
+  margin-top: 10px;
+}
+.CUDButton-update{
+  background-color: #001aff;
+  color: rgb(255, 255, 255);
+  padding: 6px 32px;
+  font-size: 16px;
+  margin-top: 10px;
+}
+.CUDButton-delete{
+  background-color: #970000;
+  color: rgb(255, 255, 255);
+  padding: 6px 32px;
+  font-size: 16px;
+  margin-top: 10px;
+}
+
+.PrevNext {
+  font-size: 20px;
+}
+
+.input-output{
+  border-width:0px;
+  border:none;
+  z-index: -1;
+  width: 340px;
+}
+
+.UD{
+  display: flex;
+  justify-content: left;
+}
